@@ -1,0 +1,62 @@
+body {
+    background: url(../assets/Background_Intro.png) no-repeat;
+    background-size: 100%;
+    color: var(--text-color);
+    font-family: var(--font-primary);
+    text-align: center;
+}
+
+.profile {
+    width: 112px;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 56px;
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+.name {
+    font-family: var(--font-secondary);
+    font-weight: var(--subtitle-weight);
+    font-size: var(--subtitle-size);
+    line-height: var(--subtitle-line-height);
+    color: var(--gray-500);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-family: var(--font-primary);
+    font-size: var(--Asap-lg-size);
+    line-height: var(--Asap-line-height);
+    text-align: center;
+    color: var(--gray-600);
+    margin-bottom: 20px;
+}
+
+.tra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.tr {
+    font-weight: var(--maven-weight);
+    font-family: --font-tertiary;
+    font-size: var(--maven-sm-size);
+    line-height: var(--maven-line-height);
+    color: var(--gray-400);
+    max-width: 680px;
+}
+
+.tech-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}

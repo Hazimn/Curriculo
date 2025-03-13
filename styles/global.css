@@ -5,6 +5,11 @@
 }
 
 :root {
+
+    --text-color: #ffffff;
+    --highlight-color: #f30505;
+    --bg-color: #0d0d0d;
+    
     /* Cores principais */
     --color-red: #E3464E;
     --color-purple: #BB72E9;
@@ -22,11 +27,11 @@
 
     /* Fonte principal */
     --font-primary: 'Asap', sans-serif;
-    --title-lg-size: 56px;
-    --title-md-size: 24px;
-    --title-sm-size: 16px;
-    --title-line-height: 120%;
-    --title-weight: bold;
+    --Asap-lg-size: 56px;
+    --Asap-md-size: 24px;
+    --Asap-sm-size: 16px;
+    --Asap-line-height: 120%;
+    --Asap-weight: bold;
 
     /* Fonte secundária */
     --font-secondary: 'Inconsolata', monospace;
@@ -36,8 +41,8 @@
 
     /* Fonte terciária */
     --font-tertiary: 'Maven Pro', sans-serif;
-    --text-md-size: 16px;
-    --text-sm-size: 14px;
-    --text-line-height: 140%;
-    --text-weight: regular;
+    --maven-md-size: 16px;
+    --maven-sm-size: 14px;
+    --maven-line-height: 140%;
+    --maven-weight: regular;
 }
