@@ -5,12 +5,15 @@ body {
     font-family: var(--font-primary);
     text-align: center;
 }
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-top: 80px;
+    margin-bottom: 56px;
 }
+
 .perfil {
     position: relative;
     width: 112px;
@@ -18,8 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    margin-bottom: 56px;
+
 }
 
 .profile {
