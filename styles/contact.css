@@ -1,0 +1,83 @@
+/* styles.css */
+.ctc {
+    background: url(../assets/Background_Intro.png) no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+}
+
+.contact {
+    max-width: 500px;
+    padding: 20px;
+}
+
+.ctc-title {
+    margin-bottom: 8px;
+    text-align: center;
+    color: var(--highlight-color);
+    font-family: var(--font-secondary);
+    font-weight: var(--subtitle-weight);
+    font-size: var(--subtitle-size);
+    line-height: var(--subtitle-line-height);
+    color: var(--highlight-color);
+
+}
+
+.ct-title {
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: var(--font-primary);
+    font-weight: var(--Asap-weight);
+    font-size: var(--Asap-md-size);
+    line-height: var(--Asap-line-height);
+    color: var(--gray-600);
+}
+
+.locales {
+    color: #bbb;
+    font-size: 14px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background: var(--gray-300);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 20px;
+    width: 400px;
+    height: 68px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #222;
+}
+
+.contact-btn i {
+    font-size: 18px;
+}
+
+.ctc-p {
+    text-align: center;
+    margin-bottom: 48px;
+    color: var(--gray-500);
+    font-family: var(--font-tertiary);
+    font-weight: var(--maven-weight);
+    font-size: var(--maven-sm-size);
+    line-height: var(--maven-line-height);
+}
