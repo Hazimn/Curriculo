@@ -1,0 +1,48 @@
+.serv {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.services {
+    padding: 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-weight: var(--subtitle-weight);
+    font-size: var(--subtitle-size);
+    line-height: var(--subtitle-line-height);
+    color: var(--highlight-color);
+}
+
+.main-title {
+    text-align: center;
+font-family:var(--font-primary);
+font-weight:var( --Asap-weight);
+font-size: var(--Asap-md-size);
+color: var(--gray-600);
+
+}
+
+.services-container {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    border: 1px solid #1a1a1a;
+
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    background: #222;
+}
